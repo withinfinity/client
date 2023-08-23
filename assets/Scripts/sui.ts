@@ -1,4 +1,4 @@
-import { _decorator, Component, log, Node,find, sys } from 'cc';
+import { _decorator, Component, log, Node,find, sys,director } from 'cc';
 const { ccclass, property } = _decorator;
 
 
@@ -29,7 +29,7 @@ export class sui extends Component {
             const code = JSON.stringify(wallet)
             sys.localStorage.setItem('withinfinity-userWalletData', code); 
         }else{
-            window.alert("你有账号了")
+            director.loadScene('claim_pet');
         }
 
     }

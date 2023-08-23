@@ -308,10 +308,10 @@
       "b": 0,
       "a": 255
     },
-    "_string": "button",
+    "_string": "call",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 20,
+    "_actualFontSize": 29.09375,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
